@@ -198,7 +198,11 @@
 
 @layer utilities {
   .text-gradient {
+<<<<<<< HEAD
     @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-500;
+=======
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500;
+>>>>>>> 3941060b0371a6fc4583e0e93d77efbf861e0d93
   }
 
   .animate-float {
