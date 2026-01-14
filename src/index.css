@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -198,11 +198,7 @@
 
 @layer utilities {
   .text-gradient {
-<<<<<<< HEAD
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-500;
-=======
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500;
->>>>>>> 3941060b0371a6fc4583e0e93d77efbf861e0d93
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500;
   }
 
   .animate-float {
