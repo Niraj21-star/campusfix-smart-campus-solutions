@@ -226,7 +226,7 @@ export default function LandingPage() {
                 variant="outline" 
                 size="lg" 
                 onClick={() => navigate('/admin')}
-                className="w-full sm:w-auto border-white/30 text-white hover:bg-white/10"
+                className="w-full sm:w-auto border-white/30 text-black hover:bg-white/10"
               >
                 View Demo
               </Button>

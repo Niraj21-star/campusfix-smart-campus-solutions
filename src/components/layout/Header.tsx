@@ -47,7 +47,7 @@ export function Header({ user, onMenuClick }: HeaderProps) {
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
             <div className="gradient-hero rounded-lg p-1.5">
-              <Wrench className="h-5 w-5 text-white" />
+              <img src='favicon.io' alt='Logo'></img>
             </div>
             <div className="flex flex-col">
               <span className="font-display font-bold text-lg leading-none">CampusFix</span>
